@@ -1,0 +1,23 @@
+# Core numerics / data
+numpy>=1.24,<2.1
+pandas>=2.0
+scipy>=1.10
+pyarrow>=12.0            # reading the MMLU-Pro parquet files
+tqdm>=4.65
+
+# Neural value gate
+torch>=2.1
+
+# LLM backend (episode generation)
+transformers>=4.51,<6
+accelerate>=1.3
+
+# Optional: 4-bit / 8-bit quantisation to fit 14B/32B on a 24 GB GPU
+# (only needed when using --load-4bit / --load-8bit)
+bitsandbytes>=0.43; platform_system == "Linux"
+
+# Remote MATH benchmark
+datasets>=2.19
+
+# Optional but recommended for correct MATH grading
+math-verify[antlr4_13_2]; python_version >= "3.9"

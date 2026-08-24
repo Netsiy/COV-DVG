@@ -1,0 +1,47 @@
+{
+  "thresholds": {
+    "gpqa": Infinity,
+    "gsm8k": Infinity,
+    "math": 0.8749940395355225,
+    "mmlu_pro": Infinity
+  },
+  "details": {
+    "gpqa": {
+      "source": "per_benchmark",
+      "n_val": 30,
+      "threshold": Infinity,
+      "validation_accuracy": 0.4666666666666667,
+      "validation_debate_rate": 0.0,
+      "validation_avg_extra_tokens": 0.0,
+      "validation_objective": 0.4666666666666667
+    },
+    "gsm8k": {
+      "source": "per_benchmark",
+      "n_val": 40,
+      "threshold": Infinity,
+      "validation_accuracy": 0.975,
+      "validation_debate_rate": 0.0,
+      "validation_avg_extra_tokens": 0.0,
+      "validation_objective": 0.975
+    },
+    "math": {
+      "source": "per_benchmark",
+      "n_val": 40,
+      "threshold": 0.8749940395355225,
+      "validation_accuracy": 0.825,
+      "validation_debate_rate": 0.25,
+      "validation_avg_extra_tokens": 2283.975,
+      "validation_objective": 0.822716025
+    },
+    "mmlu_pro": {
+      "source": "per_benchmark",
+      "n_val": 20,
+      "threshold": Infinity,
+      "validation_accuracy": 0.85,
+      "validation_debate_rate": 0.0,
+      "validation_avg_extra_tokens": 0.0,
+      "validation_objective": 0.85
+    }
+  },
+  "global_threshold": 0.8756228685379028
+}

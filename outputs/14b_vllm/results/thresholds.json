@@ -1,0 +1,47 @@
+{
+  "thresholds": {
+    "gpqa": 0.03948094695806503,
+    "gsm8k": Infinity,
+    "math": -Infinity,
+    "mmlu_pro": Infinity
+  },
+  "details": {
+    "gpqa": {
+      "source": "per_benchmark",
+      "n_val": 30,
+      "threshold": 0.03948094695806503,
+      "validation_accuracy": 0.5666666666666667,
+      "validation_debate_rate": 0.4,
+      "validation_avg_extra_tokens": 2291.766666666667,
+      "validation_objective": 0.5643749
+    },
+    "gsm8k": {
+      "source": "per_benchmark",
+      "n_val": 40,
+      "threshold": Infinity,
+      "validation_accuracy": 0.975,
+      "validation_debate_rate": 0.0,
+      "validation_avg_extra_tokens": 0.0,
+      "validation_objective": 0.975
+    },
+    "math": {
+      "source": "per_benchmark",
+      "n_val": 60,
+      "threshold": -Infinity,
+      "validation_accuracy": 0.8666666666666667,
+      "validation_debate_rate": 1.0,
+      "validation_avg_extra_tokens": 5319.716666666666,
+      "validation_objective": 0.8613469500000001
+    },
+    "mmlu_pro": {
+      "source": "per_benchmark",
+      "n_val": 20,
+      "threshold": Infinity,
+      "validation_accuracy": 0.75,
+      "validation_debate_rate": 0.0,
+      "validation_avg_extra_tokens": 0.0,
+      "validation_objective": 0.75
+    }
+  },
+  "global_threshold": 0.34018266201019287
+}
