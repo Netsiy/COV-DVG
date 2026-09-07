@@ -1,0 +1,14 @@
+# Keep the public repo code-only: these are local-only generated dirs
+paper/
+results/
+outputs/
+
+# Claude Code local settings
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
